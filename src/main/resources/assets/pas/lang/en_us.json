@@ -1,5 +1,5 @@
 {
-  "modmenu.descriptionTranslation.pas": "Now the armor stands look like players... but don't forget to rename them for that",
+  "modmenu.descriptionTranslation.pas": "Armor stands look like players when renamed. Modified from Danrus' PAS. Simplified code with performance improvements.",
 
   "commands.pas.default_feedback": "Arguments requires",
   "commands.pas.reload_failed_error": "To reload the skin, you must specify a player name",
