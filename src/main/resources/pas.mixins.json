@@ -1,0 +1,22 @@
+{
+  "package": "com.danrus.pas.mixin",
+  "required": true,
+  "minVersion": "0.8",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "compatibilityLevel": "JAVA_25",
+  "client": [
+    "AnvilScreenMixin",
+    "ConditionalItemModelPropertiesMixin",
+    "EntityRendererMixin",
+    "EntityRenderersMixin",
+    "LivingEntityRendererMixin",
+    "SpecialModelRenderersMixin",
+    "accessors.AnvilScreenAccessor",
+    "accessors.ScreenAccessor"
+  ],
+  "mixins": [
+    "accessors.EntityAccessor"
+  ]
+}

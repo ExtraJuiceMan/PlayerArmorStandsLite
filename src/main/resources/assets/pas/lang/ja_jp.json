@@ -1,0 +1,86 @@
+{
+  "modmenu.descriptionTranslation.pas": "これでアーマースタンドはプレイヤーのように見えます… ただし、そのためには名前を変更することを忘れないでください",
+
+  "commands.pas.default_feedback": "引数が必要です",
+  "commands.pas.reload_failed_error": "スキンを再読み込みするにはプレイヤー名を指定する必要があります",
+  "commands.pas.skin_not_found": "指定されたスキンのデータが見つかりません",
+
+  "pas.buttons.configurator": "スキンコンフィギュレーター",
+  "pas.buttons.configurator.tooltip": "Player Armor Stand コンフィギュレーターを開き、スキンとその設定を管理します",
+
+  "pas.downloading": "%s のスキンをダウンロード中…",
+  "pas.invalid_username": "無効なユーザー名: %s",
+  "pas.download_success": "%s のスキンをダウンロードしました",
+  "pas.download_failed": "%s のスキンダウンロードに失敗しました",
+  "pas.overlay_not_found": "Minecraft にオーバーレイが見つかりません: %s",
+
+  "pas.config.group.general": "一般",
+  "pas.config.group.armorstands": "アーマースタンド",
+  "pas.config.group.skin_loading": "ダウンロード",
+  "pas.config.group.secret_settings": "秘密の設定",
+
+  "pas.config.download_threads": "ダウンロードスレッド数",
+  "pas.config.hide_params_on_label": "名前表示にパラメータを隠す",
+  "pas.config.default_skin": "デフォルトスキン",
+  "pas.config.enable_mod": "Mod を有効化",
+  "pas.config.show_armor_stand_while_downloading": "ダウンロード中にアーマースタンドモデルを表示する",
+  "pas.config.try_apply_from_server_player": "サーバープレイヤーのスキンを適用する",
+
+  "pas.config.download_status_display": "ダウンロード状況の表示",
+  "pas.config.download_status_display.none": "表示しない",
+  "pas.config.download_status_display.above_hotbar": "ホットバー上部",
+  "pas.config.download_status_display.chat": "チャット",
+
+  "pas.config.show_easter_eggs": "イースターエッグを表示",
+
+  "pas.config.possessive_show_default_hand": "棒の手のみを表示",
+
+  "pas.menu.accept": "決定",
+  "pas.menu.cancel": "キャンセル",
+  "pas.menu.name": "アーマースタンド コンフィギュレーター",
+
+  "pas.menu.tab.skin": "スキン",
+  "pas.menu.tab.cape": "マント",
+  "pas.menu.tab.overlay": "その他",
+
+  "pas.menu.tab.skin.provider": "スキンソース",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "ローカルファイル",
+
+  "pas.menu.tab.cape.provider": "マントソース",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "マント名 / ID",
+  "pas.menu.tab.cape.name.tooltip": "NameMC からマントをダウンロードするには、その ID を指定します。例: 「https://namemc.com/cape/cb5dd34bee340182」では ID は「cb5dd34bee340182」です。",
+
+  "pas.menu.tab.skin.arm_type": "腕のタイプ",
+  "pas.menu.tab.skin.arm_type.slim": "スリム",
+  "pas.menu.tab.skin.arm_type.wide": "ワイド",
+
+  "pas.menu.tab.skin.open_folder": "カスタムスキンフォルダー",
+  "pas.menu.tab.skin.open_folder.button": "開く",
+
+  "pas.menu.tab.skin.name": "名前 / ID",
+  "pas.menu.tab.skin.name.tooltip": "Mojang のサーバーからスキンをダウンロードする場合はプレイヤー名を入力するだけです。NameMC の場合、「https://namemc.com/skin/4da4ce379e8b0d00」のような URL から ID をコピーし、下の欄に貼り付けます。スキンソースと名前 / ID を入力した後で Enter または右のボタンを押してください。",
+
+  "pas.menu.tab.cape.label": "マントを表示",
+  "pas.menu.tab.cape.yes": "はい",
+  "pas.menu.tab.cape.no": "いいえ",
+
+  "pas.menu.tab.overlay.name": "オーバーレイテクスチャ",
+  "pas.menu.tab.overlay.name.tooltip": "下の欄には assets/minecraft/textures/blocks 内にあるテクスチャ名を入力します（例: stone）",
+  "pas.menu.tab.overlay.blend": "ブレンド",
+
+  "pas.menu.tab.overlay.display_name": "表示名",
+  "pas.menu.tab.overlay.display_name.tooltip": "下の欄の名前がプレイヤー名の代わりに表示されます。適用するには Enter を押してください。",
+
+  "pas.rp.3d_items_with_head": "[PAS] プレイヤーヘッド付き3Dアイテム",
+  "pas.rp.3d_items_with_head.desc": "Player Armor Stands Mod用の動的ヘッド付きアイテムモデル",
+  "pas.rp.3d_items_player_like": "[PAS] プレイヤー風3Dアイテム",
+  "pas.rp.3d_items_player_like.desc": "Player Armor Stands Mod用のプレイヤースキン付きアイテムモデル",
+
+  "pas.yacl_required.1": "この Mod を設定するには Yet Another Config Lib (YACL) が必要です。",
+  "pas.yacl_required.2": "続行するには Modrinth からダウンロードしてください！"
+}

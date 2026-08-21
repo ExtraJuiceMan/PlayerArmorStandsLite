@@ -1,0 +1,95 @@
+{
+  "modmenu.descriptionTranslation.pas": "Now the armor stands look like players... but don't forget to rename them for that",
+
+  "commands.pas.default_feedback": "Arguments requires",
+  "commands.pas.reload_failed_error": "To reload the skin, you must specify a player name",
+  "commands.pas.skin_not_found": "Can't find data for specified skin",
+
+  "pas.buttons.configurator": "Skin Configurator",
+  "pas.buttons.configurator.tooltip": "Open the Player Armor Stand Configurator to manage skin and its parameters",
+
+  "pas.downloading": "Downloading Skin for %s...",
+  "pas.invalid_username": "Invalid username: %s",
+  "pas.download_success": "Skin downloaded for %s",
+  "pas.download_failed": "Failed to download skin for %s",
+  "pas.overlay_not_found": "Overlay not found in Minecraft: %s",
+
+  "pas.config.group.general": "General",
+  "pas.config.group.armorstands": "Armor Stands",
+  "pas.config.group.skin_loading": "Downloading",
+  "pas.config.group.secret_settings": "Secret Settings",
+
+  "pas.config.download_threads": "Download Threads",
+  "pas.config.hide_params_on_label": "Hide Parameters on Nameplate",
+  "pas.config.default_skin": "Default Skin",
+  "pas.config.enable_mod": "Enable Mod",
+  "pas.config.show_armor_stand_while_downloading": "Show Armor Stand Model While Downloading",
+  "pas.config.try_apply_from_server_player": "Try to Apply Skin from Server Player",
+
+  "pas.config.download_status_display": "Show Download Status",
+  "pas.config.download_status_display.none": "Don't Show",
+  "pas.config.download_status_display.above_hotbar": "Above the Hotbar",
+  "pas.config.download_status_display.chat": "In Chat",
+
+  "pas.config.reload_time": "Auto Reload Time",
+  "pas.config.reload_time.never": "Never",
+  "pas.config.reload_time.hour_12": "Every 12 Hours",
+  "pas.config.reload_time.day_1": "Every 24 Hours",
+  "pas.config.reload_time.day_3": "Every 3 Days",
+  "pas.config.reload_time.day_7": "Every Week",
+
+  "pas.config.show_easter_eggs": "Show Easter Eggs",
+
+  "pas.config.possessive_show_default_hand": "Show Stick Hand only",
+
+  "pas.menu.accept": "Accept",
+  "pas.menu.cancel": "Cancel",
+  "pas.menu.name": "Armor Stand Configurator",
+
+  "pas.menu.tab.skin": "Skin",
+  "pas.menu.tab.cape": "Cape",
+  "pas.menu.tab.overlay": "Misc",
+
+  "pas.menu.tab.skin.provider": "Skin Source",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "Local File",
+
+  "pas.menu.tab.cape.provider": "Cape Source",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "Cape Name / ID",
+  "pas.menu.tab.cape.name.tooltip": "To download Cape from NameMC you should specify cape ID. For example, in \"https://namemc.com/cape/cb5dd34bee340182\" id is \"cb5dd34bee340182\" ",
+
+  "pas.menu.tab.skin.arm_type": "Arm Type",
+  "pas.menu.tab.skin.arm_type.slim": "Slim",
+  "pas.menu.tab.skin.arm_type.wide": "Wide",
+
+  "pas.menu.tab.skin.open_folder": "Custom Skins Folder",
+  "pas.menu.tab.skin.open_folder.button": "Open",
+
+  "pas.menu.tab.skin.name": "Name / ID",
+  "pas.menu.tab.skin.name.tooltip": "To download a skin from Mojang's servers, simply enter the player's name. For NameMC, copy the skin ID from the website (for example, in \"https://namemc.com/skin/4da4ce379e8b0d00\" the skin ID will be \"4da4ce379e8b0d00\") and paste it into the field below. Only AFTER entering the skin source and Name / ID should you press Enter or the button to the right of the input field.",
+
+  "pas.menu.tab.cape.label": "Show Cape",
+  "pas.menu.tab.cape.yes": "Yes",
+  "pas.menu.tab.cape.no": "No",
+
+  "pas.menu.tab.overlay.name": "Overlay Texture",
+  "pas.menu.tab.overlay.name.tooltip": "In the field below, specify any name of texture located in assets/minecraft/textures/blocks (e.g. stone)",
+  "pas.menu.tab.overlay.blend": "Blend",
+
+  "pas.menu.tab.overlay.display_name": "Display Name",
+  "pas.menu.tab.overlay.display_name.tooltip": "Name from box below will be displayed instead player name. To apply name, you should press enter",
+
+  "pas.rp.3d_items_with_head": "[PAS] 3D items with player heads",
+  "pas.rp.3d_items_with_head.desc": "Item model with dynamic head for Player Armor Stands mod",
+
+  "pas.rp.3d_items_player_like": "[PAS] 3D items player-like",
+  "pas.rp.3d_items_player_like.desc": "Item model with player skin for Player Armor Stands mod",
+
+
+  "pas.yacl_required.1": "To configure this mod, you need to install Yet Another Config Lib (YACL).",
+  "pas.yacl_required.2": "Please download it from Modrinth to continue!"
+}

@@ -1,0 +1,94 @@
+{
+  "modmenu.descriptionTranslation.pas": "Теперь стойки для брони выглядят как игроки... но не забудьте переименовать их для этого",
+
+  "commands.pas.default_feedback": "Необходимы аргументы",
+  "commands.pas.reload_failed_error": "Чтобы перезагрузить скин, необходимо указать имя игрока",
+  "commands.pas.skin_not_found": "Не удалось найти данные для указанного скина",
+
+  "pas.buttons.configurator": "Конфигуратор Скина",
+  "pas.buttons.configurator.tooltip": "Открыть конфигуратор Player Armor Stand для управления скином и его параметрами",
+
+  "pas.downloading": "Загрузка скина для %s...",
+  "pas.invalid_username": "Неверное имя: %s",
+  "pas.download_success": "Скин загружен: %s",
+  "pas.download_failed": "Ошибка при загрузке скина: %s",
+  "pas.overlay_not_found": "Наложение не найдено в Minecraft: %s",
+
+  "pas.config.group.general": "Основные",
+  "pas.config.group.armorstands": "Стойка",
+  "pas.config.group.skin_loading": "Загрузка",
+  "pas.config.group.secret_settings": "Секретные настройки",
+
+  "pas.config.download_threads": "Потоки загрузки",
+  "pas.config.hide_params_on_label": "Скрыть параметры на имени",
+  "pas.config.default_skin": "Стандартный скин",
+  "pas.config.enable_mod": "Включить мод",
+  "pas.config.show_armor_stand_while_downloading": "Показать модель стойки во время загрузки",
+  "pas.config.try_apply_from_server_player": "Пытаться применить скин с игрока сервера",
+
+  "pas.config.download_status_display": "Показать статус загрузки",
+  "pas.config.download_status_display.none": "Не показывать",
+  "pas.config.download_status_display.above_hotbar": "Над хотбаром",
+  "pas.config.download_status_display.chat": "В чате",
+
+  "pas.config.reload_time": "Время Автоматической Перезагрузки",
+  "pas.config.reload_time.never": "Никогда",
+  "pas.config.reload_time.hour_12": "Каждые 12 Часов",
+  "pas.config.reload_time.day_1": "Каждые 24 Часа",
+  "pas.config.reload_time.day_3": "Каждые 3 Дня",
+  "pas.config.reload_time.day_7": "Каждую Неделю",
+
+  "pas.config.show_easter_eggs": "Показать пасхалки",
+
+  "pas.config.possessive_show_default_hand": "Показывать только руку-палку",
+
+  "pas.menu.accept": "Применить",
+  "pas.menu.cancel": "Отменить",
+  "pas.menu.name": "Конфигратор Стойки для Брони",
+
+  "pas.menu.tab.skin": "Скин",
+  "pas.menu.tab.cape": "Плащ",
+  "pas.menu.tab.overlay": "Другое",
+
+  "pas.menu.tab.skin.provider": "Источник скина",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "Локальный файл",
+
+  "pas.menu.tab.cape.provider": "Источник плаща",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "Имя / ID плаща",
+  "pas.menu.tab.cape.name.tooltip": "Чтобы загрузить Плащ из NameMC, вы должны указать ID плаща. Например, у \"https://namemc.com/cape/cb5dd34bee340182\" id будет \"cb5dd34bee340182\" ",
+
+  "pas.menu.tab.skin.arm_type": "Тип рук",
+  "pas.menu.tab.skin.arm_type.slim": "Тонкие",
+  "pas.menu.tab.skin.arm_type.wide": "Широкие",
+
+  "pas.menu.tab.skin.open_folder": "Папка со скинами",
+  "pas.menu.tab.skin.open_folder.button": "Открыть",
+
+  "pas.menu.tab.skin.name": "Имя / ID",
+  "pas.menu.tab.skin.name.tooltip": "Для того чтобы загрузить скин с серверов Mojang, вам достаточно ввести имя этого игрока. Для NameMC нужно скопировать id скина из сайта (например, в \"https://namemc.com/skin/4da4ce379e8b0d00\" id скина будет \"4da4ce379e8b0d00\") и вставить в поле ниже. Только ПОСЛЕ ввода Источника скина и Имени / ID нужно нажать на Enter или кнопку правее от поля ввода",
+
+  "pas.menu.tab.cape.label": "Показать плащ",
+  "pas.menu.tab.cape.yes": "Да",
+  "pas.menu.tab.cape.no": "Нет",
+
+  "pas.menu.tab.overlay.name": "Текстура наложения",
+  "pas.menu.tab.overlay.name.tooltip": "В поле ниже нужно указать имя любой текстуры, которая находится в assets/minecraft/textures/blocks (например, stone)",
+  "pas.menu.tab.overlay.blend": "Смешивание",
+
+  "pas.menu.tab.overlay.display_name": "Отображаемое имя",
+  "pas.menu.tab.overlay.display_name.tooltip": "Имя из поля ниже будет отображаться вмето имени игрока. Чтобы применить имя, вы должны нажать enter",
+
+  "pas.rp.3d_items_with_head": "[PAS] 3D предмет с головой игрока",
+  "pas.rp.3d_items_with_head.desc": "Модель предмета с динамической головой для мода Player Armor Stands",
+
+  "pas.rp.3d_items_player_like": "[PAS] 3D предмет с моделью игрока",
+  "pas.rp.3d_items_player_like.desc": "Модель предмета со скином игрока для мода Player Armor Stands",
+
+  "pas.yacl_required.1": "Чтобы настраивать этот мод необходимо установить Yet Another Config Lib (YACL)",
+  "pas.yacl_required.2": "Пожалуйста, загрузите её из Modrinth, чтобы продолжить!"
+}

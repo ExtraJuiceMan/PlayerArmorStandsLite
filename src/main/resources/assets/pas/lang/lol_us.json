@@ -1,0 +1,94 @@
+{
+  "modmenu.descriptionTranslation.pas": "NOW ARMOR STANDZ LOOK LIEK PLAYRZ... BUT DONT FORGET 2 RENAME DEM",
+
+  "commands.pas.default_feedback": "ARGUMENTZ R REQUIRED",
+  "commands.pas.reload_failed_error": "2 RELOAD SKIN, U MUST SAY PLAYR NAEM",
+  "commands.pas.skin_not_found": "CANT FIND DAT SKIN DATA",
+
+  "pas.buttons.configurator": "SKIN CONFIGURATR",
+  "pas.buttons.configurator.tooltip": "OPEN PLAYER ARMOR STAND CONFIGURATR 2 MANAGE SKIN AN STUFF",
+
+  "pas.downloading": "GETTIN SKIN 4 %s...",
+  "pas.invalid_username": "BAD USERNAEM: %s",
+  "pas.download_success": "GOT SKIN 4 %s",
+  "pas.download_failed": "CUD NOT GET SKIN 4 %s",
+  "pas.overlay_not_found": "CANT FIND OVERLAY IN MINECRAFT: %s",
+
+  "pas.config.group.general": "GENERUL",
+  "pas.config.group.armorstands": "ARMOR STANDZ",
+  "pas.config.group.skin_loading": "DOWNLODIN",
+  "pas.config.group.secret_settings": "SEKRIT SETTINGZ",
+
+  "pas.config.download_threads": "DOWNLOD THREADZ",
+  "pas.config.hide_params_on_label": "HIDE PARAMETRZ ON NAEMPLATE",
+  "pas.config.default_skin": "DEFAULT SKIN",
+  "pas.config.enable_mod": "TURN MOD ON",
+  "pas.config.show_armor_stand_while_downloading": "SHOW ARMOR STAND WHILE GETTIN SKIN",
+  "pas.config.try_apply_from_server_player": "TRY 2 BORROW SKIN FRUM SERVR PLAYR",
+
+  "pas.config.download_status_display": "SHOW DOWNLOD STATUS",
+  "pas.config.download_status_display.none": "DONT SHOW",
+  "pas.config.download_status_display.above_hotbar": "ABUV HOTBAR",
+  "pas.config.download_status_display.chat": "IN CHAT",
+
+  "pas.config.reload_time": "AUTO RELOAD TIEM",
+  "pas.config.reload_time.never": "NEVR",
+  "pas.config.reload_time.hour_12": "EVRY 12 HOURZ",
+  "pas.config.reload_time.day_1": "EVRY 24 HOURZ",
+  "pas.config.reload_time.day_3": "EVRY 3 DAYZ",
+  "pas.config.reload_time.day_7": "EVRY WEEK",
+
+  "pas.config.show_easter_eggs": "SHOW SEKRIT FUN STUFF",
+
+  "pas.config.possessive_show_default_hand": "SHOW STICK HAND ONLY",
+
+  "pas.menu.accept": "KTHX",
+  "pas.menu.cancel": "NOPE",
+  "pas.menu.name": "ARMOR STAND CONFIGURATR",
+
+  "pas.menu.tab.skin": "SKIN",
+  "pas.menu.tab.cape": "CAEP",
+  "pas.menu.tab.overlay": "MOAR STUFF",
+
+  "pas.menu.tab.skin.provider": "SKIN SAUCE",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "LOCAL FILE",
+
+  "pas.menu.tab.cape.provider": "CAEP SAUCE",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "CAEP NAEM / ID",
+  "pas.menu.tab.cape.name.tooltip": "2 GET CAEP FRUM NameMC, U MUST GIVE CAEP ID. EXAMPL: IN \"https://namemc.com/cape/cb5dd34bee340182\" TEH ID IZ \"cb5dd34bee340182\".",
+
+  "pas.menu.tab.skin.arm_type": "ARM TYEP",
+  "pas.menu.tab.skin.arm_type.slim": "SLIM",
+  "pas.menu.tab.skin.arm_type.wide": "WIDE",
+
+  "pas.menu.tab.skin.open_folder": "CUSTOM SKINZ FOLDR",
+  "pas.menu.tab.skin.open_folder.button": "OPEN",
+
+  "pas.menu.tab.skin.name": "NAEM / ID",
+  "pas.menu.tab.skin.name.tooltip": "2 GET SKIN FRUM MOJANG SERVRZ, JUST TYPE PLAYR NAEM. 4 NameMC, COPY SKIN ID FRUM WEBSITE (EXAMPL: IN \"https://namemc.com/skin/4da4ce379e8b0d00\" TEH SKIN ID IZ \"4da4ce379e8b0d00\") AN PUT IT IN BOX BELOW. ONLY AFTER PICKIN SKIN SAUCE AN NAEM / ID, PRESS ENTER OR TEH BUTTON ON TEH RITE.",
+
+  "pas.menu.tab.cape.label": "SHOW CAEP",
+  "pas.menu.tab.cape.yes": "YUS",
+  "pas.menu.tab.cape.no": "NOES",
+
+  "pas.menu.tab.overlay.name": "OVERLAY TEXTUR",
+  "pas.menu.tab.overlay.name.tooltip": "IN BOX BELOW, TYPE ANY TEXTUR NAEM FRUM assets/minecraft/textures/blocks (EXAMPL: stone)",
+  "pas.menu.tab.overlay.blend": "BLEND",
+
+  "pas.menu.tab.overlay.display_name": "DISPLAY NAEM",
+  "pas.menu.tab.overlay.display_name.tooltip": "NAEM IN BOX BELOW IZ SHOWN INSTEAD OV PLAYR NAEM. PRESS ENTER 2 APPLY IT.",
+
+  "pas.rp.3d_items_with_head": "[PAS] 3D ITEMZ WIF PLAYR HEDZ",
+  "pas.rp.3d_items_with_head.desc": "ITEM MODEL WIF DYNAMIC HED 4 PLAYER ARMOR STANDZ MOD",
+
+  "pas.rp.3d_items_player_like": "[PAS] 3D PLAYR-LIEK ITEMZ",
+  "pas.rp.3d_items_player_like.desc": "ITEM MODEL WIF PLAYR SKIN 4 PLAYER ARMOR STANDZ MOD",
+
+  "pas.yacl_required.1": "2 CONFIGUR DIS MOD, U NEED YET ANOTHR CONFIG LIB (YACL).",
+  "pas.yacl_required.2": "PLZ DOWNLOD IT FRUM MODRINTH 2 CONTINUE!"
+}

@@ -1,0 +1,86 @@
+{
+  "modmenu.descriptionTranslation.pas": "现在盔甲架看起来像玩家了……但别忘了重命名它们才能生效",
+
+  "commands.pas.default_feedback": "需要参数",
+  "commands.pas.reload_failed_error": "要重新加载皮肤，必须指定玩家名称",
+  "commands.pas.skin_not_found": "找不到指定皮肤的数据",
+
+  "pas.buttons.configurator": "皮肤配置器",
+  "pas.buttons.configurator.tooltip": "打开 Player Armor Stand 配置器以管理皮肤及其参数",
+
+  "pas.downloading": "正在为 %s 下载皮肤…",
+  "pas.invalid_username": "无效用户名：%s",
+  "pas.download_success": "%s 的皮肤下载成功",
+  "pas.download_failed": "%s 的皮肤下载失败",
+  "pas.overlay_not_found": "在 Minecraft 中找不到叠加纹理：%s",
+
+  "pas.config.group.general": "通用",
+  "pas.config.group.armorstands": "盔甲架",
+  "pas.config.group.skin_loading": "下载",
+  "pas.config.group.secret_settings": "隐藏设置",
+
+  "pas.config.download_threads": "下载线程数",
+  "pas.config.hide_params_on_label": "在名称上隐藏参数",
+  "pas.config.default_skin": "默认皮肤",
+  "pas.config.enable_mod": "启用模组",
+  "pas.config.show_armor_stand_while_downloading": "下载过程中显示盔甲架模型",
+  "pas.config.try_apply_from_server_player": "尝试应用服务器玩家的皮肤",
+
+  "pas.config.download_status_display": "显示下载状态",
+  "pas.config.download_status_display.none": "不显示",
+  "pas.config.download_status_display.above_hotbar": "在物品栏上方",
+  "pas.config.download_status_display.chat": "在聊天栏显示",
+
+  "pas.config.show_easter_eggs": "显示彩蛋",
+
+  "pas.config.possessive_show_default_hand": "仅显示木棍手",
+
+  "pas.menu.accept": "确认",
+  "pas.menu.cancel": "取消",
+  "pas.menu.name": "盔甲架配置器",
+
+  "pas.menu.tab.skin": "皮肤",
+  "pas.menu.tab.cape": "披风",
+  "pas.menu.tab.overlay": "杂项",
+
+  "pas.menu.tab.skin.provider": "皮肤来源",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "本地文件",
+
+  "pas.menu.tab.cape.provider": "披风来源",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "披风名称 / ID",
+  "pas.menu.tab.cape.name.tooltip": "从 NameMC 下载披风需要指定披风 ID。例如，在“https://namemc.com/cape/cb5dd34bee340182”中，ID 是“cb5dd34bee340182”。",
+
+  "pas.menu.tab.skin.arm_type": "手臂类型",
+  "pas.menu.tab.skin.arm_type.slim": "细",
+  "pas.menu.tab.skin.arm_type.wide": "宽",
+
+  "pas.menu.tab.skin.open_folder": "自定义皮肤文件夹",
+  "pas.menu.tab.skin.open_folder.button": "打开",
+
+  "pas.menu.tab.skin.name": "名称 / ID",
+  "pas.menu.tab.skin.name.tooltip": "从 Mojang 服务器下载皮肤时，只需输入玩家名称。对于 NameMC，请复制皮肤 ID（例如 https://namemc.com/skin/4da4ce379e8b0d00 中的“4da4ce379e8b0d00”）并粘贴到下方。输入来源和名称 / ID 后按回车或右侧按钮。",
+
+  "pas.menu.tab.cape.label": "显示披风",
+  "pas.menu.tab.cape.yes": "是",
+  "pas.menu.tab.cape.no": "否",
+
+  "pas.menu.tab.overlay.name": "叠加材质",
+  "pas.menu.tab.overlay.name.tooltip": "在下方填写存在于 assets/minecraft/textures/blocks 中的任意材质名（如 stone）",
+  "pas.menu.tab.overlay.blend": "混合",
+
+  "pas.menu.tab.overlay.display_name": "显示名称",
+  "pas.menu.tab.overlay.display_name.tooltip": "下方填写的名称将代替玩家名称显示。按回车应用。",
+
+  "pas.rp.3d_items_with_head": "[PAS] 带玩家头颅的 3D 物品",
+  "pas.rp.3d_items_with_head.desc": "Player Armor Stands Mod 动态头颅物品模型",
+  "pas.rp.3d_items_player_like": "[PAS] 玩家外观 3D 物品",
+  "pas.rp.3d_items_player_like.desc": "Player Armor Stands Mod 玩家皮肤物品模型",
+
+  "pas.yacl_required.1": "要配置此模组，需要安装 Yet Another Config Lib (YACL)。",
+  "pas.yacl_required.2": "请从 Modrinth 下载后继续！"
+}

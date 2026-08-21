@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "name": "${mod_name}",
+  "version": "${mod_version}",
+  "authors": ["${mod_author}"],
+  "license": "${mod_license}",
+  "icon": "assets/pas/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": ["com.danrus.pas.loaders.fabric.FabricEntrypoint"],
+    "modmenu": ["com.danrus.pas.config.ModMenuIntegration"]
+  },
+  "contact": {
+    "sources": "https://github.com/Danrus1100/PlayerArmorStand",
+    "issues": "${mod_issue_tracker}"
+  },
+  "mixins": ["pas.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "${minecraft_versions}",
+    "fabric-api": "*"
+  },
+  "recommends": {
+    "yet_another_config_lib_v3": ">=3.0.0",
+    "modmenu": ">=1.0.0"
+  }
+}

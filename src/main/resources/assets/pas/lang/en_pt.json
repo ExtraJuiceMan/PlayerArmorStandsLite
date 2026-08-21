@@ -1,0 +1,94 @@
+{
+  "modmenu.descriptionTranslation.pas": "Now armor stands be lookin' like players... but don't forget to rename 'em, matey!",
+
+  "commands.pas.default_feedback": "Arrr, this command needs arguments",
+  "commands.pas.reload_failed_error": "To reload that skin, ye must name a player",
+  "commands.pas.skin_not_found": "Can't find the booty for that skin",
+
+  "pas.buttons.configurator": "Skin Riggin'",
+  "pas.buttons.configurator.tooltip": "Open the Player Armor Stand riggin' to manage the skin and its trinkets",
+
+  "pas.downloading": "Haulin' in the skin for %s...",
+  "pas.invalid_username": "That username be invalid: %s",
+  "pas.download_success": "Skin hauled in for %s",
+  "pas.download_failed": "Failed to haul in the skin for %s",
+  "pas.overlay_not_found": "Overlay not found in Minecraft: %s",
+
+  "pas.config.group.general": "General Orders",
+  "pas.config.group.armorstands": "Armor Stands",
+  "pas.config.group.skin_loading": "Haulin'",
+  "pas.config.group.secret_settings": "Secret Charts",
+
+  "pas.config.download_threads": "Haulin' Crew",
+  "pas.config.hide_params_on_label": "Hide Parameters on the Nameplate",
+  "pas.config.default_skin": "Default Skin",
+  "pas.config.enable_mod": "Enable the Mod",
+  "pas.config.show_armor_stand_while_downloading": "Show Armor Stand While Haulin'",
+  "pas.config.try_apply_from_server_player": "Try to Borrow Skin from a Server Player",
+
+  "pas.config.download_status_display": "Show Haulin' Status",
+  "pas.config.download_status_display.none": "Keep It Below Deck",
+  "pas.config.download_status_display.above_hotbar": "Above the Hotbar",
+  "pas.config.download_status_display.chat": "In the Crew Chat",
+
+  "pas.config.reload_time": "Automatic Reload Time",
+  "pas.config.reload_time.never": "Never",
+  "pas.config.reload_time.hour_12": "Every 12 Hours",
+  "pas.config.reload_time.day_1": "Every 24 Hours",
+  "pas.config.reload_time.day_3": "Every 3 Days",
+  "pas.config.reload_time.day_7": "Every Week",
+
+  "pas.config.show_easter_eggs": "Show Hidden Treasure",
+
+  "pas.config.possessive_show_default_hand": "Show Only the Stick Hand",
+
+  "pas.menu.accept": "Aye",
+  "pas.menu.cancel": "Belay That",
+  "pas.menu.name": "Armor Stand Riggin'",
+
+  "pas.menu.tab.skin": "Skin",
+  "pas.menu.tab.cape": "Cape",
+  "pas.menu.tab.overlay": "Other Booty",
+
+  "pas.menu.tab.skin.provider": "Skin Port",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "Local Chart",
+
+  "pas.menu.tab.cape.provider": "Cape Port",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "Cape Name / ID",
+  "pas.menu.tab.cape.name.tooltip": "To haul a cape from NameMC, ye must give its cape ID. Fer example, in \"https://namemc.com/cape/cb5dd34bee340182\" the ID be \"cb5dd34bee340182\".",
+
+  "pas.menu.tab.skin.arm_type": "Arm Build",
+  "pas.menu.tab.skin.arm_type.slim": "Slim",
+  "pas.menu.tab.skin.arm_type.wide": "Broad",
+
+  "pas.menu.tab.skin.open_folder": "Custom Skins Hold",
+  "pas.menu.tab.skin.open_folder.button": "Open",
+
+  "pas.menu.tab.skin.name": "Name / ID",
+  "pas.menu.tab.skin.name.tooltip": "To haul a skin from Mojang's servers, enter the player's name. Fer NameMC, copy the skin ID from its port (fer example, in \"https://namemc.com/skin/4da4ce379e8b0d00\" the skin ID be \"4da4ce379e8b0d00\") and drop it in the field below. Only AFTER choosin' the skin port and Name / ID should ye press Enter or the button to starboard of the field.",
+
+  "pas.menu.tab.cape.label": "Show Cape",
+  "pas.menu.tab.cape.yes": "Aye",
+  "pas.menu.tab.cape.no": "Nay",
+
+  "pas.menu.tab.overlay.name": "Overlay Texture",
+  "pas.menu.tab.overlay.name.tooltip": "In the field below, give any texture name found in assets/minecraft/textures/blocks (fer example, stone)",
+  "pas.menu.tab.overlay.blend": "Blend",
+
+  "pas.menu.tab.overlay.display_name": "Display Name",
+  "pas.menu.tab.overlay.display_name.tooltip": "The name in the chest below be shown instead of the player's name. Press Enter to apply it.",
+
+  "pas.rp.3d_items_with_head": "[PAS] 3D booty with player heads",
+  "pas.rp.3d_items_with_head.desc": "Item model with a changin' head for the Player Armor Stands mod",
+
+  "pas.rp.3d_items_player_like": "[PAS] 3D player-like booty",
+  "pas.rp.3d_items_player_like.desc": "Item model with a player's skin for the Player Armor Stands mod",
+
+  "pas.yacl_required.1": "To rig this mod, ye need Yet Another Config Lib (YACL).",
+  "pas.yacl_required.2": "Haul it in from Modrinth to continue, matey!"
+}

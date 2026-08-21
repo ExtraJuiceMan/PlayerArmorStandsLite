@@ -1,0 +1,13 @@
+{
+	"pack": {
+		"pack_format": 15,
+		"supported_formats": [15,999],
+        "min_format": 15,
+        "max_format": 999,
+		"description": {
+          "type": "translatable",
+          "translate": "pas.rp.3d_items_with_head.desc",
+          "fallback": "3D item model with dynamic head for Player Armor Stands mod"
+        }
+	}
+}

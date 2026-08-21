@@ -1,0 +1,86 @@
+{
+  "modmenu.descriptionTranslation.pas": "Agora os suportes de armadura parecem jogadores… mas não esqueça de renomeá-los para isso funcionar",
+
+  "commands.pas.default_feedback": "Argumentos necessários",
+  "commands.pas.reload_failed_error": "Para recarregar o skin, você deve especificar o nome do jogador",
+  "commands.pas.skin_not_found": "Não foi possível encontrar dados do skin especificado",
+
+  "pas.buttons.configurator": "Configurador de Skin",
+  "pas.buttons.configurator.tooltip": "Abre o configurador Player Armor Stand para gerenciar o skin e seus parâmetros",
+
+  "pas.downloading": "Baixando skin para %s...",
+  "pas.invalid_username": "Nome inválido: %s",
+  "pas.download_success": "Skin baixado para %s",
+  "pas.download_failed": "Falha ao baixar o skin para %s",
+  "pas.overlay_not_found": "Overlay não encontrado no Minecraft: %s",
+
+  "pas.config.group.general": "Geral",
+  "pas.config.group.armorstands": "Suportes de armadura",
+  "pas.config.group.skin_loading": "Download",
+  "pas.config.group.secret_settings": "Configurações secretas",
+
+  "pas.config.download_threads": "Threads de download",
+  "pas.config.hide_params_on_label": "Ocultar parâmetros no nome",
+  "pas.config.default_skin": "Skin padrão",
+  "pas.config.enable_mod": "Ativar mod",
+  "pas.config.show_armor_stand_while_downloading": "Mostrar suporte de armadura durante o download",
+  "pas.config.try_apply_from_server_player": "Tentar aplicar skin do jogador do servidor",
+
+  "pas.config.download_status_display": "Exibir status do download",
+  "pas.config.download_status_display.none": "Não mostrar",
+  "pas.config.download_status_display.above_hotbar": "Acima da hotbar",
+  "pas.config.download_status_display.chat": "No chat",
+
+  "pas.config.show_easter_eggs": "Mostrar easter eggs",
+
+  "pas.config.possessive_show_default_hand": "Mostrar apenas a mão com o bastão",
+
+  "pas.menu.accept": "Confirmar",
+  "pas.menu.cancel": "Cancelar",
+  "pas.menu.name": "Configurador de Suporte de Armadura",
+
+  "pas.menu.tab.skin": "Skin",
+  "pas.menu.tab.cape": "Capa",
+  "pas.menu.tab.overlay": "Diversos",
+
+  "pas.menu.tab.skin.provider": "Fonte do skin",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "Arquivo local",
+
+  "pas.menu.tab.cape.provider": "Fonte da capa",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "Nome / ID da capa",
+  "pas.menu.tab.cape.name.tooltip": "Para baixar uma capa do NameMC, especifique o ID. Exemplo: em \"https://namemc.com/cape/cb5dd34bee340182\", o ID é \"cb5dd34bee340182\".",
+
+  "pas.menu.tab.skin.arm_type": "Tipo de braço",
+  "pas.menu.tab.skin.arm_type.slim": "Fino",
+  "pas.menu.tab.skin.arm_type.wide": "Largo",
+
+  "pas.menu.tab.skin.open_folder": "Pasta de skins personalizados",
+  "pas.menu.tab.skin.open_folder.button": "Abrir",
+
+  "pas.menu.tab.skin.name": "Nome / ID",
+  "pas.menu.tab.skin.name.tooltip": "Para baixar um skin dos servidores da Mojang, basta inserir o nome do jogador. Para NameMC, copie o ID do skin do site e cole no campo abaixo. Só depois de escolher a fonte e inserir o Nome / ID pressione Enter ou o botão à direita.",
+
+  "pas.menu.tab.cape.label": "Mostrar capa",
+  "pas.menu.tab.cape.yes": "Sim",
+  "pas.menu.tab.cape.no": "Não",
+
+  "pas.menu.tab.overlay.name": "Textura de overlay",
+  "pas.menu.tab.overlay.name.tooltip": "Digite o nome de uma textura localizada em assets/minecraft/textures/blocks (ex.: stone)",
+  "pas.menu.tab.overlay.blend": "Mesclar",
+
+  "pas.menu.tab.overlay.display_name": "Nome exibido",
+  "pas.menu.tab.overlay.display_name.tooltip": "O nome no campo abaixo será exibido no lugar do nome do jogador. Pressione Enter para aplicar.",
+
+  "pas.rp.3d_items_with_head": "[PAS] Itens 3D com cabeças de jogador",
+  "pas.rp.3d_items_with_head.desc": "Modelo de item com cabeça dinâmica para o mod Player Armor Stands",
+  "pas.rp.3d_items_player_like": "[PAS] Itens 3D semelhantes a jogador",
+  "pas.rp.3d_items_player_like.desc": "Modelo de item com skin de jogador para o mod Player Armor Stands",
+
+  "pas.yacl_required.1": "Para configurar este mod, você precisa instalar Yet Another Config Lib (YACL).",
+  "pas.yacl_required.2": "Baixe no Modrinth para continuar!"
+}

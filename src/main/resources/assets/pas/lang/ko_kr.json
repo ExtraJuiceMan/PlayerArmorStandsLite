@@ -1,0 +1,86 @@
+{
+  "modmenu.descriptionTranslation.pas": "이제 갑옷 거치대가 플레이어처럼 보입니다… 하지만 그렇게 하려면 이름을 변경하는 것을 잊지 마세요",
+
+  "commands.pas.default_feedback": "인수가 필요합니다",
+  "commands.pas.reload_failed_error": "스킨을 다시 불러오려면 플레이어 이름을 지정해야 합니다",
+  "commands.pas.skin_not_found": "해당 스킨 데이터를 찾을 수 없습니다",
+
+  "pas.buttons.configurator": "스킨 설정기",
+  "pas.buttons.configurator.tooltip": "Player Armor Stand 설정기를 열어 스킨과 매개변수를 관리합니다",
+
+  "pas.downloading": "%s 스킨 다운로드 중...",
+  "pas.invalid_username": "잘못된 사용자 이름: %s",
+  "pas.download_success": "%s 스킨 다운로드 완료",
+  "pas.download_failed": "%s 스킨 다운로드 실패",
+  "pas.overlay_not_found": "Minecraft에서 오버레이를 찾을 수 없음: %s",
+
+  "pas.config.group.general": "일반",
+  "pas.config.group.armorstands": "갑옷 거치대",
+  "pas.config.group.skin_loading": "다운로드",
+  "pas.config.group.secret_settings": "비밀 설정",
+
+  "pas.config.download_threads": "다운로드 스레드",
+  "pas.config.hide_params_on_label": "이름표에서 매개변수 숨기기",
+  "pas.config.default_skin": "기본 스킨",
+  "pas.config.enable_mod": "모드 활성화",
+  "pas.config.show_armor_stand_while_downloading": "다운로드 동안 갑옷 거치대 모델 표시",
+  "pas.config.try_apply_from_server_player": "서버 플레이어의 스킨 적용 시도",
+
+  "pas.config.download_status_display": "다운로드 상태 표시",
+  "pas.config.download_status_display.none": "표시 안 함",
+  "pas.config.download_status_display.above_hotbar": "핫바 위",
+  "pas.config.download_status_display.chat": "채팅창",
+
+  "pas.config.show_easter_eggs": "이스터에그 표시",
+
+  "pas.config.possessive_show_default_hand": "막대 손만 표시",
+
+  "pas.menu.accept": "확인",
+  "pas.menu.cancel": "취소",
+  "pas.menu.name": "갑옷 거치대 설정기",
+
+  "pas.menu.tab.skin": "스킨",
+  "pas.menu.tab.cape": "망토",
+  "pas.menu.tab.overlay": "기타",
+
+  "pas.menu.tab.skin.provider": "스킨 소스",
+  "pas.menu.tab.skin.provider.n": "NameMC",
+  "pas.menu.tab.skin.provider.m": "Mojang",
+  "pas.menu.tab.skin.provider.f": "로컬 파일",
+
+  "pas.menu.tab.cape.provider": "망토 소스",
+  "pas.menu.tab.cape.provider.m": "Mojang",
+  "pas.menu.tab.cape.provider.a": "NameMC",
+  "pas.menu.tab.cape.provider.i": "Minecraft Capes",
+  "pas.menu.tab.cape.name": "망토 이름 / ID",
+  "pas.menu.tab.cape.name.tooltip": "NameMC에서 망토를 다운로드하려면 ID를 입력해야 합니다. 예: \"https://namemc.com/cape/cb5dd34bee340182\"의 ID는 \"cb5dd34bee340182\"입니다.",
+
+  "pas.menu.tab.skin.arm_type": "팔 유형",
+  "pas.menu.tab.skin.arm_type.slim": "슬림",
+  "pas.menu.tab.skin.arm_type.wide": "와이드",
+
+  "pas.menu.tab.skin.open_folder": "커스텀 스킨 폴더",
+  "pas.menu.tab.skin.open_folder.button": "열기",
+
+  "pas.menu.tab.skin.name": "이름 / ID",
+  "pas.menu.tab.skin.name.tooltip": "Mojang 서버에서 스킨을 다운로드하려면 플레이어 이름을 입력하기만 하면 됩니다. NameMC 스킨의 경우 URL에서 ID를 복사하여 아래 칸에 붙여넣으세요. 스킨 소스와 이름 / ID 입력 후 Enter 또는 오른쪽 버튼을 눌러야 합니다.",
+
+  "pas.menu.tab.cape.label": "망토 표시",
+  "pas.menu.tab.cape.yes": "예",
+  "pas.menu.tab.cape.no": "아니요",
+
+  "pas.menu.tab.overlay.name": "오버레이 텍스처",
+  "pas.menu.tab.overlay.name.tooltip": "아래 칸에는 assets/minecraft/textures/blocks 내부의 텍스처 이름을 입력합니다 (예: stone)",
+  "pas.menu.tab.overlay.blend": "블렌드",
+
+  "pas.menu.tab.overlay.display_name": "표시 이름",
+  "pas.menu.tab.overlay.display_name.tooltip": "아래 칸의 이름이 플레이어 이름 대신 표시됩니다. 적용하려면 Enter를 누르세요.",
+
+  "pas.rp.3d_items_with_head": "[PAS] 플레이어 머리가 있는 3D 아이템",
+  "pas.rp.3d_items_with_head.desc": "Player Armor Stands 모드를 위한 동적 머리가 있는 아이템 모델",
+  "pas.rp.3d_items_player_like": "[PAS] 플레이어와 같은 3D 아이템",
+  "pas.rp.3d_items_player_like.desc": "Player Armor Stands 모드를 위한 플레이어 스킨이 있는 아이템 모델",
+
+  "pas.yacl_required.1": "이 모드를 설정하려면 Yet Another Config Lib (YACL)이 필요합니다.",
+  "pas.yacl_required.2": "계속하려면 Modrinth에서 다운로드하세요!"
+}

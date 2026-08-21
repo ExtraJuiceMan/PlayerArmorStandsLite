@@ -1,0 +1,94 @@
+{
+  "modmenu.descriptionTranslation.pas": "ʇɐɥʇ ɹoɟ ɯǝɥʇ ǝɯɐuǝɹ oʇ ʇǝƃɹoɟ ʇ'uop ʇnq ˙˙˙sɹǝʎɐld ǝʞᴉl ʞool spuɐʇs ɹoɯɹɐ ǝɥʇ ʍoN",
+
+  "commands.pas.default_feedback": "sǝɹᴉnbǝɹ sʇuǝɯnƃɹ∀",
+  "commands.pas.reload_failed_error": "ǝɯɐu ɹǝʎɐld ɐ ʎɟᴉɔǝds ʇsnɯ noʎ 'uᴉʞs ǝɥʇ pɐolǝɹ o⊥",
+  "commands.pas.skin_not_found": "uᴉʞs pǝᴉɟᴉɔǝds ɹoɟ ɐʇɐp puᴉɟ ʇ'uɐƆ",
+
+  "pas.buttons.configurator": "ɹoʇɐɹnƃᴉɟuoƆ uᴉʞS",
+  "pas.buttons.configurator.tooltip": "sɹǝʇǝɯɐɹɐd sʇᴉ puɐ uᴉʞs ǝƃɐuɐɯ oʇ ɹoʇɐɹnƃᴉɟuoƆ puɐʇS ɹoɯɹ∀ ɹǝʎɐlԀ ǝɥʇ uǝdO",
+
+  "pas.downloading": "˙˙˙%s ɹoɟ uᴉʞS ƃuᴉpɐoluʍo◖",
+  "pas.invalid_username": "%s :ǝɯɐuɹǝsn pᴉlɐʌuI",
+  "pas.download_success": "%s ɹoɟ pǝpɐoluʍop uᴉʞS",
+  "pas.download_failed": "%s ɹoɟ uᴉʞs pɐoluʍop oʇ pǝlᴉɐℲ",
+  "pas.overlay_not_found": "%s :ʇɟɐɹɔǝuᴉW uᴉ punoɟ ʇou ʎɐlɹǝʌO",
+
+  "pas.config.group.general": "lɐɹǝuǝפ",
+  "pas.config.group.armorstands": "spuɐʇS ɹoɯɹ∀",
+  "pas.config.group.skin_loading": "ƃuᴉpɐoluʍo◖",
+  "pas.config.group.secret_settings": "sƃuᴉʇʇǝS ʇǝɹɔǝS",
+
+  "pas.config.download_threads": "spɐǝɹɥ⊥ pɐoluʍo◖",
+  "pas.config.hide_params_on_label": "ǝʇɐldǝɯɐN uo sɹǝʇǝɯɐɹɐԀ ǝpᴉH",
+  "pas.config.default_skin": "uᴉʞS ʇlnɐɟǝ◖",
+  "pas.config.enable_mod": "poW ǝlqɐuƎ",
+  "pas.config.show_armor_stand_while_downloading": "ƃuᴉpɐoluʍo◖ ǝlᴉɥM lǝpoW puɐʇS ɹoɯɹ∀ ʍoɥS",
+  "pas.config.try_apply_from_server_player": "ɹǝʎɐlԀ ɹǝʌɹǝS ɯoɹɟ uᴉʞS ʎldd∀ oʇ ʎɹ⊥",
+
+  "pas.config.download_status_display": "snʇɐʇS pɐoluʍo◖ ʍoɥS",
+  "pas.config.download_status_display.none": "ʍoɥS ʇ'uo◖",
+  "pas.config.download_status_display.above_hotbar": "ɹɐqʇoH ǝɥʇ ǝʌoq∀",
+  "pas.config.download_status_display.chat": "ʇɐɥƆ uI",
+
+  "pas.config.reload_time": "ǝɯᴉ⊥ pɐolǝᴚ oʇn∀",
+  "pas.config.reload_time.never": "ɹǝʌǝN",
+  "pas.config.reload_time.hour_12": "sɹnoH 21 ʎɹǝʌƎ",
+  "pas.config.reload_time.day_1": "sɹnoH 42 ʎɹǝʌƎ",
+  "pas.config.reload_time.day_3": "sʎɐ◖ 3 ʎɹǝʌƎ",
+  "pas.config.reload_time.day_7": "ʞǝǝM ʎɹǝʌƎ",
+
+  "pas.config.show_easter_eggs": "sƃƃƎ ɹǝʇsɐƎ ʍoɥS",
+
+  "pas.config.possessive_show_default_hand": "ʎluo puɐH ʞɔᴉʇS ʍoɥS",
+
+  "pas.menu.accept": "ʇdǝɔɔ∀",
+  "pas.menu.cancel": "lǝɔuɐƆ",
+  "pas.menu.name": "ɹoʇɐɹnƃᴉɟuoƆ puɐʇS ɹoɯɹ∀",
+
+  "pas.menu.tab.skin": "uᴉʞS",
+  "pas.menu.tab.cape": "ǝdɐƆ",
+  "pas.menu.tab.overlay": "ɔsᴉW",
+
+  "pas.menu.tab.skin.provider": "ǝɔɹnoS uᴉʞS",
+  "pas.menu.tab.skin.provider.n": "ƆWǝɯɐN",
+  "pas.menu.tab.skin.provider.m": "ƃuɐɾoW",
+  "pas.menu.tab.skin.provider.f": "ǝlᴉℲ lɐɔo˥",
+
+  "pas.menu.tab.cape.provider": "ǝɔɹnoS ǝdɐƆ",
+  "pas.menu.tab.cape.provider.m": "ƃuɐɾoW",
+  "pas.menu.tab.cape.provider.a": "ƆWǝɯɐN",
+  "pas.menu.tab.cape.provider.i": "sǝdɐƆ ʇɟɐɹɔǝuᴉW",
+  "pas.menu.tab.cape.name": "◖I / ǝɯɐu ǝdɐƆ",
+  "pas.menu.tab.cape.name.tooltip": "\"cb5dd34bee340182\" sᴉ ◖I ǝɥʇ \"https://namemc.com/cape/cb5dd34bee340182\" uᴉ 'ǝldɯɐxǝ ɹoℲ ˙◖I ǝdɐɔ ʎɟᴉɔǝds plnoɥs noʎ ƆWǝɯɐN ɯoɹɟ ǝdɐƆ pɐoluʍop o⊥",
+
+  "pas.menu.tab.skin.arm_type": "ǝdʎ⊥ ɯɹ∀",
+  "pas.menu.tab.skin.arm_type.slim": "ɯᴉlS",
+  "pas.menu.tab.skin.arm_type.wide": "ǝpᴉM",
+
+  "pas.menu.tab.skin.open_folder": "ɹǝploℲ suᴉʞS ɯoʇsnƆ",
+  "pas.menu.tab.skin.open_folder.button": "uǝdO",
+
+  "pas.menu.tab.skin.name": "◖I / ǝɯɐN",
+  "pas.menu.tab.skin.name.tooltip": "˙plǝᴉɟ ʇnduᴉ ǝɥʇ ɟo ʇɥƃᴉɹ ǝɥʇ oʇ uoʇʇnq ǝɥʇ ɹo ɹǝʇuƎ ssǝɹd noʎ plnoɥs ◖I / ǝɯɐN puɐ ǝɔɹnos uᴉʞs ǝɥʇ ƃuᴉɹǝʇuǝ ᴚƎ⊥Ⅎ∀ ʎluO ˙ʍolǝq plǝᴉɟ ǝɥʇ oʇuᴉ ʇᴉ ǝʇsɐd puɐ (\"4da4ce379e8b0d00\" ǝq llᴉʍ ◖I uᴉʞs ǝɥʇ \"https://namemc.com/skin/4da4ce379e8b0d00\" uᴉ 'ǝldɯɐxǝ ɹoɟ) ǝʇᴉsqǝʍ ǝɥʇ ɯoɹɟ ◖I uᴉʞs ǝɥʇ ʎdoɔ 'ƆWǝɯɐN ɹoℲ ˙ǝɯɐu s'ɹǝʎɐld ǝɥʇ ɹǝʇuǝ ʎldɯᴉs 'sɹǝʌɹǝs s'ƃuɐɾoW ɯoɹɟ uᴉʞs ɐ pɐoluʍop o⊥",
+
+  "pas.menu.tab.cape.label": "ǝdɐƆ ʍoɥS",
+  "pas.menu.tab.cape.yes": "sǝ⅄",
+  "pas.menu.tab.cape.no": "oN",
+
+  "pas.menu.tab.overlay.name": "ǝɹnʇxǝʇ ʎɐlɹǝʌO",
+  "pas.menu.tab.overlay.name.tooltip": "(stone ˙ƃ˙ǝ) assets/minecraft/textures/blocks uᴉ pǝʇɐɔol ǝɹnʇxǝʇ ɟo ǝɯɐu ʎuɐ ʎɟᴉɔǝds 'ʍolǝq plǝᴉɟ ǝɥʇ uI",
+  "pas.menu.tab.overlay.blend": "puǝlꓭ",
+
+  "pas.menu.tab.overlay.display_name": "ǝɯɐN ʎɐldsᴉ◖",
+  "pas.menu.tab.overlay.display_name.tooltip": "ɹǝʇuǝ ssǝɹd plnoɥs noʎ 'ǝɯɐu ʎlddɐ o⊥ ˙ǝɯɐu ɹǝʎɐld pɐǝʇsuᴉ pǝʎɐldsᴉp ǝq llᴉʍ ʍolǝq xoq ɯoɹɟ ǝɯɐN",
+
+  "pas.rp.3d_items_with_head": "spɐǝɥ ɹǝʎɐld ɥʇᴉʍ sɯǝʇᴉ ◖3 [S∀Ԁ]",
+  "pas.rp.3d_items_with_head.desc": "poɯ spuɐʇS ɹoɯɹ∀ ɹǝʎɐlԀ ɹoɟ pɐǝɥ ɔᴉɯɐuʎp ɥʇᴉʍ lǝpoɯ ɯǝʇI",
+
+  "pas.rp.3d_items_player_like": "ǝʞᴉl-ɹǝʎɐld sɯǝʇᴉ ◖3 [S∀Ԁ]",
+  "pas.rp.3d_items_player_like.desc": "poɯ spuɐʇS ɹoɯɹ∀ ɹǝʎɐlԀ ɹoɟ uᴉʞs ɹǝʎɐld ɥʇᴉʍ lǝpoɯ ɯǝʇI",
+
+  "pas.yacl_required.1": "˙(˥Ɔ∀⅄) qᴉ˥ ƃᴉɟuoƆ ɹǝɥʇou∀ ʇǝ⅄ llɐʇsuᴉ oʇ pǝǝu noʎ 'poɯ sᴉɥʇ ǝɹnƃᴉɟuoɔ o⊥",
+  "pas.yacl_required.2": "¡ǝnuᴉʇuoɔ oʇ ɥʇuᴉɹpoW ɯoɹɟ ʇᴉ pɐoluʍop ǝsɐǝlԀ"
+}

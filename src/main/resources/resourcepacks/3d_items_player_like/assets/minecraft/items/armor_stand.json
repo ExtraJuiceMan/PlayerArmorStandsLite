@@ -1,0 +1,19 @@
+{
+  "oversized_in_gui": true,
+  "model": {
+    "type": "minecraft:special",
+    "base": "pas:item/pas_transformer",
+    "model": {
+      "type": "pas:armor_stand",
+      "state": {
+        "body": {"mode": "dynamic"},
+        "left_arm": {"mode": "dynamic"},
+        "right_arm": {"mode": "dynamic"},
+        "left_leg": {"mode": "dynamic"},
+        "right_leg": {"mode": "dynamic"},
+        "cape": {"mode": "dynamic"},
+        "baseplate": true
+      }
+    }
+  }
+}
