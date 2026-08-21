@@ -1,9 +1,7 @@
 package com.danrus.pas.data.cape;
 
-import com.danrus.pas.ModExecutor;
 import com.danrus.pas.api.DownloadStatus;
 import com.danrus.pas.api.NameInfo;
-import com.danrus.pas.config.PasConfig;
 import com.danrus.pas.managers.PasManager;
 import com.danrus.pas.utils.CacheUtils;
 import com.danrus.pas.utils.EncodeUtils;
@@ -12,9 +10,7 @@ import com.danrus.pas.utils.TextureUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.Identifier;
 
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.concurrent.CompletableFuture;
 
 import static com.danrus.pas.data.skin.DiskSkinProvider.CACHE_PATH;
 

@@ -3,7 +3,6 @@ package com.danrus.pas.managers;
 import com.danrus.pas.config.PasConfig;
 import net.minecraft.ChatFormatting;
 import net.minecraft.client.Minecraft;
-import net.minecraft.client.gui.screens.Overlay;
 import net.minecraft.network.chat.Component;
 
 public class OverlayMessageManager {

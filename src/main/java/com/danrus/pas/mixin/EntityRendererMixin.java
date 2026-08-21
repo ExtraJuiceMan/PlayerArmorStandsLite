@@ -3,16 +3,12 @@ package com.danrus.pas.mixin;
 import com.danrus.pas.api.NameInfo;
 import com.danrus.pas.config.PasConfig;
 import com.llamalad7.mixinextras.injector.wrapoperation.Operation;
-import com.llamalad7.mixinextras.injector.wrapoperation.WrapOperation;
 import com.mojang.blaze3d.vertex.PoseStack;
 import net.minecraft.client.renderer.SubmitNodeCollector;
 import net.minecraft.client.renderer.state.level.CameraRenderState;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.phys.Vec3;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.injection.At;
-
-import java.util.function.Consumer;
 
 @Mixin(net.minecraft.client.renderer.entity.EntityRenderer.class)
 public class EntityRendererMixin {

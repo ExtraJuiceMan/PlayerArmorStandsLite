@@ -1,8 +1,11 @@
 package com.danrus.pas;
 
 import com.danrus.pas.config.PasConfig;
+
 import java.util.List;
-import java.util.concurrent.*;
+import java.util.concurrent.CompletableFuture;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 
 public class ModExecutor {
     public static volatile ExecutorService MAIN_EXECUTOR;

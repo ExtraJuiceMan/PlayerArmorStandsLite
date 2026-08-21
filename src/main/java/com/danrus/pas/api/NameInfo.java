@@ -1,7 +1,6 @@
 package com.danrus.pas.api;
 
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.Identifier;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.Objects;
@@ -26,13 +25,12 @@ public final class NameInfo {
     private volatile String compiled;
 
     private NameInfo() {
-        this("", "M", false, false, "M", "", "", 100, "", null, 2);
+        this("", "M", false, false, "M", "", "", 100, "", 2);
     }
 
     private NameInfo(String base, String skinProvider, boolean slim,
                      boolean capeEnabled, String capeProvider, String capeId,
-                     String overlayTexture, int overlayBlend, String displayName,
-                     @Nullable Identifier meme, int version) {
+                     String overlayTexture, int overlayBlend, String displayName, int version) {
         this.base = base;
         this.skinProvider = skinProvider;
         this.slim = slim;
@@ -81,7 +79,6 @@ public final class NameInfo {
                 f.overlayTexture,
                 f.overlayBlend,
                 f.displayName,
-                null,
                 1
         );
     }
@@ -108,7 +105,6 @@ public final class NameInfo {
                 f.overlayTexture,
                 f.overlayBlend,
                 f.displayName,
-                null,
                 2
         );
     }
@@ -403,7 +399,7 @@ public final class NameInfo {
         public String displayName() { return displayName; }
 
         public NameInfo build() {
-            return new NameInfo(base, skinProvider, slim, cape, capeProvider, capeId, overlay, blend, displayName, null, version);
+            return new NameInfo(base, skinProvider, slim, cape, capeProvider, capeId, overlay, blend, displayName, version);
         }
         public String compile() { return build().compile(); }
     }

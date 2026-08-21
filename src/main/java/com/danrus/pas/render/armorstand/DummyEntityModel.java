@@ -1,7 +1,7 @@
 package com.danrus.pas.render.armorstand;
 
-import net.minecraft.client.model.object.armorstand.ArmorStandArmorModel;
 import net.minecraft.client.model.geom.ModelPart;
+import net.minecraft.client.model.object.armorstand.ArmorStandArmorModel;
 import net.minecraft.client.renderer.entity.state.ArmorStandRenderState;
 
 import java.util.List;

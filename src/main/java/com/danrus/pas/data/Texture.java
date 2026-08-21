@@ -2,6 +2,7 @@ package com.danrus.pas.data;
 
 import com.danrus.pas.api.DownloadStatus;
 import net.minecraft.resources.Identifier;
+
 import java.util.concurrent.atomic.AtomicReference;
 
 public class Texture {

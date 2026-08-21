@@ -4,8 +4,8 @@ import com.danrus.pas.api.DownloadStatus;
 import com.danrus.pas.api.NameInfo;
 import com.danrus.pas.data.skin.SkinData;
 import com.danrus.pas.impl.providers.MojangProvider;
-import com.danrus.pas.impl.providers.skin.NamemcSkinProvider;
 import com.danrus.pas.impl.providers.common.AbstractTextureProviderManager;
+import com.danrus.pas.impl.providers.skin.NamemcSkinProvider;
 
 public class SkinProvidersManager extends AbstractTextureProviderManager<SkinData> {
     @Override

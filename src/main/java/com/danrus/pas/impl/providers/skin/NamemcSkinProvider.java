@@ -8,8 +8,6 @@ import com.danrus.pas.utils.EncodeUtils;
 import com.danrus.pas.utils.Id;
 import net.minecraft.resources.Identifier;
 
-import java.nio.file.Path;
-
 public class NamemcSkinProvider extends AbstractNamemcProvider<SkinData> {
     @Override public String getLiteral() { return "N"; }
     @Override protected Identifier getLocation(NameInfo info) { return Id.pas("skins/" + getFileName(info)); }

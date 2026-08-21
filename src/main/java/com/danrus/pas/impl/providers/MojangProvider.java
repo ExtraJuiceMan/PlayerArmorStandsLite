@@ -9,7 +9,10 @@ import com.danrus.pas.data.skin.DiskSkinProvider;
 import com.danrus.pas.data.skin.SkinData;
 import com.danrus.pas.managers.OverlayMessageManager;
 import com.danrus.pas.managers.PasManager;
-import com.danrus.pas.utils.*;
+import com.danrus.pas.utils.EncodeUtils;
+import com.danrus.pas.utils.Id;
+import com.danrus.pas.utils.MojangUtils;
+import com.danrus.pas.utils.TextureDownloader;
 import com.google.gson.Gson;
 import net.minecraft.resources.Identifier;
 

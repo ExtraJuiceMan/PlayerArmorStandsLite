@@ -26,7 +26,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
     public final ModelPart originalHead, originalBody, originalRightArm, originalLeftArm, originalRightLeg, originalLeftLeg;
     public final ModelPart jacket;
     private final ModelPart cloak;
-    private final ModelPart leftEar, rightEar;
     private final List<ModelPart> originalParts;
     private final List<ModelPart> playerParts;
 
@@ -52,11 +51,7 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
         this.originalLeftArm = root.getChild("original_left_arm");
         this.originalRightLeg = root.getChild("original_right_leg");
         this.originalLeftLeg = root.getChild("original_left_leg");
-        this.leftEar = this.head.getChild("left_ear");
-        this.rightEar = this.head.getChild("right_ear");
         this.hat.visible = true;
-        this.leftEar.visible = false;
-        this.rightEar.visible = false;
         this.rightBodyStick.visible = false;
         this.leftBodyStick.visible = false;
         this.shoulderStick.visible = false;

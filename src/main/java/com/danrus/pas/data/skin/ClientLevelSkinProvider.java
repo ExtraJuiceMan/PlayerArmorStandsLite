@@ -4,7 +4,6 @@ import com.danrus.pas.api.DownloadStatus;
 import com.danrus.pas.api.NameInfo;
 import com.danrus.pas.config.PasConfig;
 import net.minecraft.client.Minecraft;
-import net.minecraft.world.entity.player.PlayerModelType;
 
 public class ClientLevelSkinProvider {
     public SkinData tryLoad(NameInfo info) {
