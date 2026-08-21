@@ -37,7 +37,7 @@ processResources {
     inputs.property "mod_description", "Armor stands look like players. Modified from Danrus' PAS. Simplified code with performance improvements."
     inputs.property "mod_author", "Danrus, ExtraJuiceMan"
     inputs.property "mod_license", "MIT"
-    inputs.property "mod_issue_tracker", "https://github.com/Danrus1100/PlayerArmorStand/issues"
+    inputs.property "mod_issue_tracker", "https://github.com/ExtraJuiceMan/PlayerArmorStandsLite/issues"
     inputs.property "minecraft_versions", project.minecraft_version
     filesMatching("fabric.mod.json") {
         expand project.properties + [
@@ -45,7 +45,7 @@ processResources {
             mod_version: project.mod_version,
             mod_description: "Armor stands look like players. Modified from Danrus' PAS. Simplified code with performance improvements.",
             mod_author: "Danrus, ExtraJuiceMan", mod_license: "MIT",
-            mod_issue_tracker: "https://github.com/Danrus1100/PlayerArmorStand/issues",
+            mod_issue_tracker: "https://github.com/ExtraJuiceMan/PlayerArmorStandsLite/issues",
             minecraft_versions: project.minecraft_version
         ]
     }
