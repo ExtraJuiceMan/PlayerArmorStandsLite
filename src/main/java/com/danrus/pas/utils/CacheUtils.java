@@ -53,6 +53,7 @@ public final class CacheUtils {
             if (fileName == null) return;
 
             Path tempFile = Files.createTempFile(parent, "pas_" + fileName, ".tmp");
+            tempFile.toFile().deleteOnExit();
 
             try {
                 Files.write(tempFile, data, StandardOpenOption.CREATE, StandardOpenOption.TRUNCATE_EXISTING, StandardOpenOption.WRITE);

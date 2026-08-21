@@ -26,6 +26,7 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
     public final ModelPart originalHead, originalBody, originalRightArm, originalLeftArm, originalRightLeg, originalLeftLeg;
     public final ModelPart jacket;
     private final ModelPart cloak;
+    private final ModelPart leftEar, rightEar;
     private final List<ModelPart> originalParts;
     private final List<ModelPart> playerParts;
 
@@ -51,11 +52,15 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
         this.originalLeftArm = root.getChild("original_left_arm");
         this.originalRightLeg = root.getChild("original_right_leg");
         this.originalLeftLeg = root.getChild("original_left_leg");
+        this.leftEar = this.head.getChild("left_ear");
+        this.rightEar = this.head.getChild("right_ear");
         this.hat.visible = true;
         this.rightBodyStick.visible = false;
         this.leftBodyStick.visible = false;
         this.shoulderStick.visible = false;
         this.basePlate.visible = false;
+        this.leftEar.visible = false;
+        this.rightEar.visible = false;
         this.originalParts = List.of(
                 originalBody, originalLeftArm, originalRightArm,
                 originalLeftLeg, originalRightLeg,
@@ -103,7 +108,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
         CubeListBuilder earsCubeListBuilder = CubeListBuilder.create().texOffs(24, 0).addBox(-3.0F, -6.0F, -1.0F, 6.0F, 6.0F, 1.0F, new CubeDeformation(1.0F));
         headDefinition.addOrReplaceChild("left_ear", earsCubeListBuilder, PartPose.offset(-6.0F, -6.0F, 0.0F));
         headDefinition.addOrReplaceChild("right_ear", earsCubeListBuilder, PartPose.offset(6.0F, -6.0F, 0.0F));
-        partdefinition.addOrReplaceChild("lol", CubeListBuilder.create().texOffs(0, 0).addBox(-32, -32, 0, 64, 64, 0), PartPose.offset(0.0f, 3.0f, 0.0f));
         return LayerDefinition.create(meshdefinition, 64, 64);
     }
 
