@@ -12,7 +12,7 @@
     "modmenu": ["com.danrus.pas.config.ModMenuIntegration"]
   },
   "contact": {
-    "sources": "https://github.com/Danrus1100/PlayerArmorStand",
+    "sources": "https://github.com/ExtraJuiceMan/PlayerArmorStandsLite",
     "issues": "${mod_issue_tracker}"
   },
   "mixins": ["pas.mixins.json"],
