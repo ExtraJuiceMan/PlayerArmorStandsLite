@@ -1,17 +1,13 @@
 package com.danrus.pas.data.skin;
 
-import com.danrus.pas.ModExecutor;
 import com.danrus.pas.api.DownloadStatus;
 import com.danrus.pas.api.NameInfo;
-import com.danrus.pas.config.PasConfig;
 import com.danrus.pas.managers.PasManager;
 import com.danrus.pas.utils.*;
 import net.minecraft.client.Minecraft;
 import net.minecraft.resources.Identifier;
 
-import java.nio.file.Files;
 import java.nio.file.Path;
-import java.util.concurrent.CompletableFuture;
 
 public class DiskSkinProvider {
     public static final Path CACHE_PATH = ModUtils.getGameDir().resolve("cache/pas");

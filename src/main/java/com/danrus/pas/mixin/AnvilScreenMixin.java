@@ -23,8 +23,6 @@ import java.util.concurrent.TimeUnit;
 @Mixin(AnvilScreen.class)
 public abstract class AnvilScreenMixin {
     @Unique private Button pas$configuratorButton;
-
-    // Debouncer fields
     @Unique private boolean pas$skipDebounce = false;
     @Unique private ScheduledFuture<?> pas$debounceFuture;
     @Unique private static final ScheduledExecutorService pas$debounceExecutor = Executors.newSingleThreadScheduledExecutor();

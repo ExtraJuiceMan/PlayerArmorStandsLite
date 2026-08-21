@@ -11,7 +11,6 @@ import com.danrus.pas.managers.PasManager;
 import com.danrus.pas.utils.EncodeUtils;
 import com.danrus.pas.utils.Id;
 import com.danrus.pas.utils.MojangUtils;
-import com.danrus.pas.utils.RestHelper;
 import com.danrus.pas.utils.TextureDownloader;
 import com.google.gson.Gson;
 import net.minecraft.resources.Identifier;
@@ -28,14 +27,14 @@ public class MinecraftCapesTextureProvider implements TextureProvider {
     @Override
     public CompletableFuture<Void> load(NameInfo info) {
         return MojangUtils.getUUID(info)
-            .thenCompose(uuid -> RestHelper.get(API_URL + uuid))
+            .thenCompose(uuid -> TextureDownloader.get(API_URL + uuid))
             .thenApply(response -> gson.fromJson(response, Profile.class))
             .thenCompose(profile -> {
                 if (profile.cape_url == null || profile.cape_url.isEmpty()) {
                     CapeData d = new CapeData();
                     d.setStatus(DownloadStatus.COMPLETED);
                     PasManager.getInstance().getCapeDataManager().store(info, d);
-                    return CompletableFuture.<Void>completedFuture(null);
+                    return CompletableFuture.completedFuture(null);
                 }
                 Identifier location = Id.pas("capes/mccapes_" + EncodeUtils.encodeToSha256(info.base()));
                 Path filePath = DiskSkinProvider.CACHE_PATH.resolve("mccapes_" + EncodeUtils.encodeToSha256(info.base()) + ".png");

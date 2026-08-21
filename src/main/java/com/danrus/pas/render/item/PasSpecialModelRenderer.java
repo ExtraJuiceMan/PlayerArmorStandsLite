@@ -65,7 +65,6 @@ public class PasSpecialModelRenderer implements SpecialModelRenderer<ItemRenderD
         List<ModelPart> partsToMeasure = new ArrayList<>();
         partsToMeasure.addAll(renderer.getModel(false).getOriginalParts());
         partsToMeasure.addAll(renderer.getModel(false).getPlayerParts());
-        partsToMeasure.add(renderer.getModel(false).getMemePart());
         for (ModelPart part : partsToMeasure) {
             if (part.visible) {
                 part.getExtentsForGui(poseStack, output);

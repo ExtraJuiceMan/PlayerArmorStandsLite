@@ -28,7 +28,6 @@ public class PasConfig {
     @SerialEntry public boolean hideParamsOnLabel = true;
     @SerialEntry public String defaultSkin = "";
     @SerialEntry public boolean showArmorStandWhileDownloading = true;
-    @SerialEntry public boolean showEasterEggs = true;
     @SerialEntry public boolean tryApplyFromServerPlayer = true;
     @SerialEntry public SkinReloadTime skinReloadTime = SkinReloadTime.DAY_1;
 
@@ -102,14 +101,6 @@ public class PasConfig {
                             .enumClass(SkinReloadTime.class)
                             .formatValue(v -> Component.translatable("pas.config.reload_time." + v.name().toLowerCase())))
                         .build())
-                    .build())
-                .group(OptionGroup.createBuilder()
-                    .name(Component.translatable("pas.config.group.secret_settings"))
-                    .collapsed(true)
-                    .option(Option.<Boolean>createBuilder()
-                        .name(Component.translatable("pas.config.show_easter_eggs"))
-                        .binding(true, () -> c.showEasterEggs, v -> c.showEasterEggs = v)
-                        .controller(TickBoxControllerBuilder::create).build())
                     .build())
                 .build())
             .save(PasConfig::save)

@@ -1,13 +1,9 @@
 package com.danrus.pas.api;
 
-import com.danrus.pas.config.PasConfig;
-import com.danrus.pas.utils.Id;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.Identifier;
 import org.jetbrains.annotations.Nullable;
 
-import java.util.Locale;
-import java.util.Map;
 import java.util.Objects;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.regex.Pattern;
@@ -16,15 +12,6 @@ public final class NameInfo {
     private static final Pattern ILLEGAL_CHARS = Pattern.compile("[<>:\"/\\\\?* ]");
     private static final ConcurrentHashMap<String, NameInfo> PARSE_CACHE = new ConcurrentHashMap<>(256);
     public static final NameInfo EMPTY = new NameInfo();
-
-    private static final Map<String, Identifier> MEMES = Map.of(
-        "данечка разработчик", Id.pas("textures/lol/danechka_razrabotchik.png"),
-        "дакимакура",           Id.pas("textures/lol/dakimakura.png"),
-        "гига крео",            Id.pas("textures/lol/gigakreo.png"),
-        "strange link",         Id.pas("textures/lol/link.png"),
-        "странная ссылка",      Id.pas("textures/lol/link.png"),
-        "сисюлики",             Id.pas("textures/lol/boobs.png")
-    );
 
     private final String base;
     private final String skinProvider;
@@ -35,7 +22,6 @@ public final class NameInfo {
     private final String overlayTexture;
     private final int overlayBlend;
     private final String displayName;
-    private final @Nullable Identifier meme;
     private final int version;
     private volatile String compiled;
 
@@ -56,7 +42,6 @@ public final class NameInfo {
         this.overlayTexture = overlayTexture;
         this.overlayBlend = overlayBlend;
         this.displayName = displayName;
-        this.meme = meme;
         this.version = version;
     }
 
@@ -74,10 +59,6 @@ public final class NameInfo {
     }
 
     private static NameInfo doParse(String input) {
-        if (PasConfig.get().showEasterEggs) {
-            Identifier meme = MEMES.get(input.toLowerCase(Locale.ROOT));
-            if (meme != null) return new NameInfo("", "M", false, false, "M", "", "", 100, "", meme, 2);
-        }
         return input.contains("||") ? parseV2(input) : parseV1(input);
     }
 
@@ -131,6 +112,7 @@ public final class NameInfo {
                 2
         );
     }
+
     public String compile() {
         String c = compiled;
         if (c != null) return c;
@@ -182,6 +164,7 @@ public final class NameInfo {
         }
         feats.append(feature);
     }
+
     public String base() { return base; }
     public String skinProvider() { return skinProvider; }
     public boolean isSlim() { return slim; }
@@ -191,7 +174,6 @@ public final class NameInfo {
     public String overlayTexture() { return overlayTexture; }
     public int overlayBlend() { return overlayBlend; }
     public String displayName() { return displayName; }
-    public @Nullable Identifier meme() { return meme; }
     public boolean isEmpty() { return base.isEmpty(); }
     public int version() { return version; }
     public boolean shouldUpsideDown() {
@@ -205,7 +187,6 @@ public final class NameInfo {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof NameInfo n)) return false;
-        if (meme != null || n.meme != null) return version == n.version && Objects.equals(meme, n.meme);
         return version == n.version && base.equals(n.base)
             && skinProvider.equals(n.skinProvider) && slim == n.slim
             && capeEnabled == n.capeEnabled && capeProvider.equals(n.capeProvider)
@@ -215,7 +196,6 @@ public final class NameInfo {
 
     @Override
     public int hashCode() {
-        if (meme != null) return Objects.hash(meme, version);
         return Objects.hash(base, skinProvider, slim, capeEnabled, capeProvider, capeId, overlayTexture, overlayBlend, displayName, version);
     }
 
@@ -247,8 +227,6 @@ public final class NameInfo {
             return r;
         }
 
-        // Display name is always written last. If present, everything after D:
-        // belongs to the display name, including semicolons.
         int dIndex = params.indexOf("D:");
         String feats = params;
 

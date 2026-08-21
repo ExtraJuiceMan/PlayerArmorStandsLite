@@ -27,7 +27,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
     public final ModelPart jacket;
     private final ModelPart cloak;
     private final ModelPart leftEar, rightEar;
-    private final ModelPart lol;
     private final List<ModelPart> originalParts;
     private final List<ModelPart> playerParts;
 
@@ -55,7 +54,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
         this.originalLeftLeg = root.getChild("original_left_leg");
         this.leftEar = this.head.getChild("left_ear");
         this.rightEar = this.head.getChild("right_ear");
-        this.lol = root.getChild("lol");
         this.hat.visible = true;
         this.leftEar.visible = false;
         this.rightEar.visible = false;
@@ -63,7 +61,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
         this.leftBodyStick.visible = false;
         this.shoulderStick.visible = false;
         this.basePlate.visible = false;
-        this.lol.visible = false;
         this.originalParts = List.of(
                 originalBody, originalLeftArm, originalRightArm,
                 originalLeftLeg, originalRightLeg,
@@ -131,15 +128,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
         boolean showArms = armorStand.showArms;
         Rotations bodyPose = armorStand.bodyPose;
 
-        if (info.meme() != null) {
-            getCape().visible = false;
-            getPlayerParts().forEach(part -> part.visible = false);
-            getOriginalParts().forEach(part -> part.visible = false);
-            this.lol.visible = true;
-            return;
-        }
-        this.lol.visible = false;
-
         copyPlayerPartsFromStand();
         setupCape();
         this.basePlate.yRot = ((float) Math.PI / 180F) * -armorStand.yRot;
@@ -148,10 +136,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
             setOriginalAngles(showBase, showArms, bodyPose);
             return;
         }
-
-        boolean isEarsVisible = "deadmau5".equalsIgnoreCase(info.base()) && PasConfig.get().showEasterEggs;
-        this.leftEar.visible = isEarsVisible;
-        this.rightEar.visible = isEarsVisible;
 
         if (setupVisibility) {
             SkinData skinData = PasManager.getInstance().getSkinData(info);
@@ -282,7 +266,6 @@ public class PlayerArmorStandModel extends ArmorStandArmorModel {
     }
 
     public ModelPart getCape() { return this.cloak; }
-    public ModelPart getMemePart() { return lol; }
 
     public Collection<ModelPart> getOriginalParts() { return originalParts; }
     public Collection<ModelPart> getPlayerParts()   { return playerParts; }

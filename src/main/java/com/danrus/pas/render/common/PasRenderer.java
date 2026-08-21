@@ -37,9 +37,6 @@ public class PasRenderer {
         this.inGui = inGui;
     }
 
-    /**
-     * Old entrypoint, kept for compatibility with item rendering and other existing callers.
-     */
     public void submit(SkinData skinData,
                        @Nullable CapeData capeData,
                        NameInfo info,
@@ -61,12 +58,6 @@ public class PasRenderer {
         );
     }
 
-    /**
-     * New entrypoint used by the entity renderer.
-     *
-     * This renders the provided model instance instead of a shared model.
-     * For armor stands, this should be the per-entity model stored in PasEntityRenderState.ownModel.
-     */
     public void submit(PlayerArmorStandModel modelToRender,
                        SkinData skinData,
                        @Nullable CapeData capeData,
@@ -77,21 +68,6 @@ public class PasRenderer {
                        int packedLight,
                        int packedOverlay) {
         if (modelToRender == null) {
-            return;
-        }
-
-        Identifier meme = info.meme();
-
-        if (meme != null) {
-            setupAnim(info, modelToRender, settings);
-            drawPart(
-                    poseStack,
-                    modelToRender.getMemePart(),
-                    RenderTypes.entitySolid(meme),
-                    collector,
-                    packedLight,
-                    packedOverlay
-            );
             return;
         }
 

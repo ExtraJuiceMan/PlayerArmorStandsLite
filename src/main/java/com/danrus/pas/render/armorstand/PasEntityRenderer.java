@@ -40,8 +40,6 @@ public class PasEntityRenderer extends LivingEntityRenderer<ArmorStand, ArmorSta
 
         this.armorStandRenderer = new ArmorStandRenderer(context);
 
-        // This renderer is now mostly a fallback/helper renderer.
-        // Actual entity rendering uses per-entity models from PasModelCache.
         this.pasRenderer = new PasRenderer(
                 new PlayerArmorStandModel(PlayerArmorStandModel.createBodyLayer(CubeDeformation.NONE).bakeRoot()),
                 new PlayerArmorStandModel(PlayerArmorStandModel.createBodyLayer(CubeDeformation.NONE)
@@ -72,7 +70,7 @@ public class PasEntityRenderer extends LivingEntityRenderer<ArmorStand, ArmorSta
         if (vanillaState instanceof PasEntityRenderState state) {
             state.info = NameInfo.parse(entity.getCustomName());
 
-            if (PasConfig.get().enableMod && (!state.info.isEmpty() || state.info.meme() != null)) {
+            if (PasConfig.get().enableMod && !state.info.isEmpty()) {
                 state.ownModel = PasModelCache.get(entity, vanillaState.isSmall);
             } else {
                 state.ownModel = null;
@@ -95,41 +93,21 @@ public class PasEntityRenderer extends LivingEntityRenderer<ArmorStand, ArmorSta
 
         SkinData data = PasManager.getInstance().getSkinData(state.info);
 
-        if (data == null || (data.getStatus() != DownloadStatus.COMPLETED && state.info.meme() == null)) {
+        if (data == null || data.getStatus() != DownloadStatus.COMPLETED) {
             submitVanilla(vanillaState, poseStack, collector, cameraRenderState);
             return;
         }
 
         PlayerArmorStandModel model = state.ownModel;
 
-        // Should not normally happen if extractRenderState ran, but keep it safe.
         if (model == null) {
             submitVanilla(vanillaState, poseStack, collector, cameraRenderState);
             return;
         }
 
-        if (state.info.meme() != null) {
-            state.bodyRot = 0;
-            state.yRot = 0;
+        swapVanillaDraw(() -> executeSubmit(model, data, state, collector, poseStack, state.lightCoords));
 
-            swapVanillaDraw(() -> {
-                Quaternionf rotation = calculateOrientation(new Quaternionf(entityRenderDispatcher.camera.rotation()));
-
-                poseStack.pushPose();
-                poseStack.mulPose(rotation);
-                poseStack.translate(0, -1, 0);
-
-                executeSubmit(model, data, state, collector, poseStack, state.lightCoords);
-
-                poseStack.popPose();
-            });
-        } else {
-            swapVanillaDraw(() -> executeSubmit(model, data, state, collector, poseStack, state.lightCoords));
-        }
-
-        // Important: use this armor stand's own model, not a shared one.
         this.model = model;
-
         super.submit(state, poseStack, collector, cameraRenderState);
     }
 
@@ -187,11 +165,6 @@ public class PasEntityRenderer extends LivingEntityRenderer<ArmorStand, ArmorSta
         );
     }
 
-    /**
-     * Cache of per-entity armor stand models.
-     *
-     * This prevents multiple armor stands from sharing the same mutable ModelParts.
-     */
     private static final class PasModelCache {
         private static final WeakHashMap<ArmorStand, Models> CACHE = new WeakHashMap<>();
 

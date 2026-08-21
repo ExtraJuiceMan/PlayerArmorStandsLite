@@ -14,7 +14,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 public abstract class AbstractTextureProviderManager<T extends Texture> {
-
     private final Logger LOGGER = LoggerFactory.getLogger(getClass());
     private final AtomicBoolean initialized = new AtomicBoolean(false);
     private PasManager pasManager;

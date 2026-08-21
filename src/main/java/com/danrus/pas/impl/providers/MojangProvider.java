@@ -1,6 +1,5 @@
 package com.danrus.pas.impl.providers;
 
-import com.danrus.pas.ModExecutor;
 import com.danrus.pas.PlayerArmorStandsClient;
 import com.danrus.pas.api.DownloadStatus;
 import com.danrus.pas.api.NameInfo;
@@ -14,7 +13,6 @@ import com.danrus.pas.utils.*;
 import com.google.gson.Gson;
 import net.minecraft.resources.Identifier;
 
-import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.Map;
 import java.util.concurrent.CompletableFuture;
@@ -59,7 +57,7 @@ public class MojangProvider implements TextureProvider {
 
         OverlayMessageManager.getInstance().showDownloadMessage(info.base());
         MojangUtils.getUUID(info)
-            .thenCompose(uuid -> RestHelper.get(SESSION_SERVER_URL + uuid))
+            .thenCompose(uuid -> TextureDownloader.get(SESSION_SERVER_URL + uuid))
             .thenApply(response -> {
                 Profile profile = gson.fromJson(response, Profile.class);
                 String encoded = EncodeUtils.decodeBase64(profile.properties[0].value);
@@ -120,8 +118,10 @@ public class MojangProvider implements TextureProvider {
             PasManager.getInstance().getCapeDataManager().store(info, d);
             return CompletableFuture.completedFuture(null);
         }
+
         Identifier location = Id.pas("capes/" + EncodeUtils.encodeToSha256(info.base()) + "_cape");
         Path filePath = DiskSkinProvider.CACHE_PATH.resolve(EncodeUtils.encodeToSha256(info.base()) + "_cape.png");
+
         return TextureDownloader.downloadAndRegister(location, filePath, tex.url, false)
             .thenAccept(textureId -> {
                 CapeData d = new CapeData();
@@ -129,18 +129,6 @@ public class MojangProvider implements TextureProvider {
                 d.setStatus(DownloadStatus.COMPLETED);
                 PasManager.getInstance().getCapeDataManager().store(info, d);
             });
-    }
-
-    private static void writeSlimMetadata(Path filePath, boolean slim) {
-        Path meta = filePath.resolveSibling(filePath.getFileName().toString() + ".model");
-
-        CompletableFuture.runAsync(() -> {
-            try {
-                Files.createDirectories(meta.getParent());
-                Files.writeString(meta, slim ? "slim" : "wide");
-            } catch (Exception ignored) {
-            }
-        }, ModExecutor.DOWNLOAD_EXECUTOR);
     }
 
     static class Profile {
@@ -157,11 +145,6 @@ public class MojangProvider implements TextureProvider {
 
             static class Texture {
                 public String url;
-                public Metadata metadata;
-
-                static class Metadata {
-                    public String model;
-                }
             }
         }
     }

@@ -18,7 +18,7 @@ public class MojangUtils {
     }
 
     public static CompletableFuture<String> getUUID(NameInfo info) {
-        return RestHelper.get(MOJANG_API_URL + info.base())
+        return TextureDownloader.get(MOJANG_API_URL + info.base())
             .thenApply(response -> {
                 SimpleProfile profile = gson.fromJson(response, SimpleProfile.class);
                 if (profile == null || profile.id == null) {
