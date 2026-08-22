@@ -67,7 +67,6 @@ public class PasEntityRenderer extends LivingEntityRenderer<ArmorStand, ArmorSta
 
     @Override
     public void extractRenderState(ArmorStand entity, ArmorStandRenderState vanillaState, float partialTick) {
-        super.extractRenderState(entity, vanillaState, partialTick);
         armorStandRenderer.extractRenderState(entity, vanillaState, partialTick);
 
         if (vanillaState instanceof PasEntityRenderState state) {
