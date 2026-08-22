@@ -70,7 +70,7 @@
   "pas.menu.tab.skin.open_folder.button": "Open",
 
   "pas.menu.tab.skin.name": "Name / ID",
-  "pas.menu.tab.skin.name.tooltip": "To download a skin from Mojang's servers, simply enter the player's name. For NameMC, copy the skin ID from the website (for example, in \"https://namemc.com/skin/4da4ce379e8b0d00\" the skin ID will be \"4da4ce379e8b0d00\") and paste it into the field below. Only AFTER entering the skin source and Name / ID should you press Enter or the button to the right of the input field.",
+  "pas.menu.tab.skin.name.tooltip": "To download a skin from Mojang's servers, simply enter the player's name. For NameMC, copy the skin ID from the website (for example, in \"https://namemc.com/skin/4da4ce379e8b0d00\" the skin ID will be \"4da4ce379e8b0d00\") and paste it into the field below.",
 
   "pas.menu.tab.cape.label": "Show Cape",
   "pas.menu.tab.cape.yes": "Yes",
@@ -81,7 +81,7 @@
   "pas.menu.tab.overlay.blend": "Blend",
 
   "pas.menu.tab.overlay.display_name": "Display Name",
-  "pas.menu.tab.overlay.display_name.tooltip": "Name from box below will be displayed instead player name. To apply name, you should press enter",
+  "pas.menu.tab.overlay.display_name.tooltip": "Name from box below will be displayed instead of the player name.",
 
   "pas.rp.3d_items_with_head": "[PAS] 3D items with player heads",
   "pas.rp.3d_items_with_head.desc": "Item model with dynamic head for Player Armor Stands mod",
